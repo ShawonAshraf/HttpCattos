@@ -1,7 +1,4 @@
 #  HTTPCattos
-[![Build Status](https://travis-ci.com/ShawonAshraf/HttpCattos.svg?branch=master)](https://travis-ci.com/ShawonAshraf/HttpCattos)
-
-
 A URLSession example in Swift using cats from `https://http.cat`
 
 ## Run Locally
