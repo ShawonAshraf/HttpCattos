@@ -17,6 +17,8 @@
 		03A27B7322D0A2CE000EB84F /* Cattos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7122D0A2CE000EB84F /* Cattos.swift */; };
 		03A27B7522D0A5C8000EB84F /* CattoNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */; };
 		03A27B7622D0A5C8000EB84F /* CattoNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */; };
+		03A27B7C22D0F1F4000EB84F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 03A27B7B22D0F1F4000EB84F /* .travis.yml */; };
+		03A27B7D22D0F1F4000EB84F /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 03A27B7B22D0F1F4000EB84F /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		03A27B6822D0A167000EB84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A27B7122D0A2CE000EB84F /* Cattos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cattos.swift; sourceTree = "<group>"; };
 		03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CattoNetworking.swift; sourceTree = "<group>"; };
+		03A27B7722D0EF66000EB84F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03A27B7B22D0F1F4000EB84F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		03A27B4522D0A166000EB84F = {
 			isa = PBXGroup;
 			children = (
+				03A27B7B22D0F1F4000EB84F /* .travis.yml */,
+				03A27B7722D0EF66000EB84F /* README.md */,
 				03A27B5022D0A166000EB84F /* HTTPCattos */,
 				03A27B6522D0A167000EB84F /* HTTPCattosTests */,
 				03A27B4F22D0A166000EB84F /* Products */,
@@ -187,6 +193,7 @@
 			files = (
 				03A27B5C22D0A167000EB84F /* LaunchScreen.storyboard in Resources */,
 				03A27B5922D0A167000EB84F /* Assets.xcassets in Resources */,
+				03A27B7C22D0F1F4000EB84F /* .travis.yml in Resources */,
 				03A27B5722D0A166000EB84F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A27B7D22D0F1F4000EB84F /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
