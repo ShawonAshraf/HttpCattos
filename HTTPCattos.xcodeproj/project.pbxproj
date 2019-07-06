@@ -15,6 +15,8 @@
 		03A27B6722D0A167000EB84F /* HTTPCattosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B6622D0A167000EB84F /* HTTPCattosTests.swift */; };
 		03A27B7222D0A2CE000EB84F /* Cattos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7122D0A2CE000EB84F /* Cattos.swift */; };
 		03A27B7322D0A2CE000EB84F /* Cattos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7122D0A2CE000EB84F /* Cattos.swift */; };
+		03A27B7522D0A5C8000EB84F /* CattoNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */; };
+		03A27B7622D0A5C8000EB84F /* CattoNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 		03A27B6622D0A167000EB84F /* HTTPCattosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPCattosTests.swift; sourceTree = "<group>"; };
 		03A27B6822D0A167000EB84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A27B7122D0A2CE000EB84F /* Cattos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cattos.swift; sourceTree = "<group>"; };
+		03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CattoNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				03A27B5A22D0A167000EB84F /* LaunchScreen.storyboard */,
 				03A27B5D22D0A167000EB84F /* Info.plist */,
 				03A27B7122D0A2CE000EB84F /* Cattos.swift */,
+				03A27B7422D0A5C8000EB84F /* CattoNetworking.swift */,
 			);
 			path = HTTPCattos;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 				03A27B7222D0A2CE000EB84F /* Cattos.swift in Sources */,
 				03A27B5422D0A166000EB84F /* ViewController.swift in Sources */,
 				03A27B5222D0A166000EB84F /* AppDelegate.swift in Sources */,
+				03A27B7522D0A5C8000EB84F /* CattoNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +218,7 @@
 			files = (
 				03A27B6722D0A167000EB84F /* HTTPCattosTests.swift in Sources */,
 				03A27B7322D0A2CE000EB84F /* Cattos.swift in Sources */,
+				03A27B7622D0A5C8000EB84F /* CattoNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.HTTPCattos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.HTTPCattos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
