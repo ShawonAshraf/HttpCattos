@@ -11,4 +11,4 @@ A URLSession example in Swift using cats from `https://http.cat`
 - `iPhone`
 
 ## GIF?
-![example]("./example.gif")
+![example](./example.gif)
