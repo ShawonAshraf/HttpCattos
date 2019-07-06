@@ -9,12 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var cattoImageView: UIImageView!
+    @IBOutlet weak var refresh: UIBarButtonItem!
+    
+    var cattoGetter = CattoNetworking()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        // load an image initially
+        setImageToImageView()
     }
 
-
+    // MARK: sets image from network response to imageView
+    func setImageToImageView() {
+        cattoGetter.getACattoAsap { (cattoData) in
+            if let catto = cattoData {
+                // referenced imageView from main thread
+                // as iOS SDK warns not to use images from
+                // a background thread
+                DispatchQueue.main.sync {
+                    self.cattoImageView.image = UIImage(data: catto)
+                }
+            } else {
+                // TODO: show an alert
+            }
+        }
+    }
+    
+    // MARK: event handler for refresh button
+    @IBAction func refreshButtonTapped(_ sender: Any) {
+        setImageToImageView()
+    }
 }
 
