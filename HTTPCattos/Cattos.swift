@@ -9,6 +9,8 @@
 import Foundation
 
 class Cattos {
+    // http codes for cats
+    // visit : https://http.cat
     private var codes: [Int] = [
         100, 101, 200, 201, 202, 204, 206, 207, 300, 301, 302,
         303, 304, 305, 307, 400, 401, 402, 403, 404, 405, 406,
