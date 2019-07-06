@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var cattoImageView: UIImageView!
     @IBOutlet weak var refresh: UIBarButtonItem!
     
+    // networking helper
     var cattoGetter = CattoNetworking()
 
     override func viewDidLoad() {
