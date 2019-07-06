@@ -13,6 +13,8 @@
 		03A27B5922D0A167000EB84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A27B5822D0A167000EB84F /* Assets.xcassets */; };
 		03A27B5C22D0A167000EB84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A27B5A22D0A167000EB84F /* LaunchScreen.storyboard */; };
 		03A27B6722D0A167000EB84F /* HTTPCattosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B6622D0A167000EB84F /* HTTPCattosTests.swift */; };
+		03A27B7222D0A2CE000EB84F /* Cattos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7122D0A2CE000EB84F /* Cattos.swift */; };
+		03A27B7322D0A2CE000EB84F /* Cattos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A27B7122D0A2CE000EB84F /* Cattos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		03A27B6222D0A167000EB84F /* HTTPCattosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPCattosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A27B6622D0A167000EB84F /* HTTPCattosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPCattosTests.swift; sourceTree = "<group>"; };
 		03A27B6822D0A167000EB84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A27B7122D0A2CE000EB84F /* Cattos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cattos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				03A27B5822D0A167000EB84F /* Assets.xcassets */,
 				03A27B5A22D0A167000EB84F /* LaunchScreen.storyboard */,
 				03A27B5D22D0A167000EB84F /* Info.plist */,
+				03A27B7122D0A2CE000EB84F /* Cattos.swift */,
 			);
 			path = HTTPCattos;
 			sourceTree = "<group>";
@@ -197,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A27B7222D0A2CE000EB84F /* Cattos.swift in Sources */,
 				03A27B5422D0A166000EB84F /* ViewController.swift in Sources */,
 				03A27B5222D0A166000EB84F /* AppDelegate.swift in Sources */,
 			);
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A27B6722D0A167000EB84F /* HTTPCattosTests.swift in Sources */,
+				03A27B7322D0A2CE000EB84F /* Cattos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
