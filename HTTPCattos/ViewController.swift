@@ -32,9 +32,20 @@ class ViewController: UIViewController {
                     self.cattoImageView.image = UIImage(data: catto)
                 }
             } else {
-                // TODO: show an alert
+                // show an alert
+                self.showErrorAlertOnImageDataBeingNil()
             }
         }
+    }
+    
+    // MARK: alert function on image data being nil
+    func showErrorAlertOnImageDataBeingNil() {
+        let ac = UIAlertController(title: "No cattos? 😢", message: "Seems we're having some problems getting cattos from the server.", preferredStyle: .alert)
+        
+        let dismiss = UIAlertAction(title: "Okay!", style: .default, handler: nil)
+        ac.addAction(dismiss)
+        
+        present(ac, animated: true)
     }
     
     // MARK: event handler for refresh button
