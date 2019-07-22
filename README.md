@@ -1,4 +1,7 @@
 #  HTTPCattos
+
+[![CodeFactor](https://www.codefactor.io/repository/github/shawonashraf/httpcattos/badge)](https://www.codefactor.io/repository/github/shawonashraf/httpcattos)
+
 A URLSession example in Swift using cats from `https://http.cat`
 
 ## Run Locally
